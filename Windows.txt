@@ -1,0 +1,7 @@
+windows:
+- Các khái niệm cần quan tâm: 
+	+ Volatile data
+	+ Non-volatile data
+-Ram + registry
+-Các file và thư mục
+- Windows evt - Một vài ID evt cần lưu ý
